@@ -1,9 +1,9 @@
 name: Build Docker Image
 
-	on:
-	  push:
-	    branches:
-	      - main
+on:
+	push:
+	  branches:
+	    - main
 
 	jobs:
 	  build:
@@ -24,4 +24,4 @@ name: Build Docker Image
 	      with:
 	        context: .
 	        push: true
-	        tags: yourusername/yourrepo:latest
+	        tags: agriszirnovs/ubuntu-hello-world:latest
